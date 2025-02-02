@@ -1,5 +1,5 @@
-import type { AppStore } from "../../store/store"
-import { makeStore } from "../../store/store"
+import type { AppStore } from "../../../store/store"
+import { makeStore } from "../../../store/store"
 import type { CounterSliceState } from "./counterSlice"
 import {
   counterSlice,
