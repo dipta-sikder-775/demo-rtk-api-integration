@@ -1,13 +1,13 @@
 import { Counter } from "./components/example/counter/Counter"
 import { Quotes } from "./components/example/quotes/Quotes"
-import logo from "./logo.svg"
+
 
 const App = () => {
   return (
     <div className="App">
       <h1 className="text-5xl font-bold underline">Hello world!</h1>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={"/images/logo.svg"} className="App-logo" alt="logo" />
         <Counter />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
